@@ -1,6 +1,8 @@
+import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
 const ProductCards = ({ item }) => {
+  const dispatch = useDispatch
   const navigate = useNavigate();
   const id = item.title;
   const idString = (id) => {

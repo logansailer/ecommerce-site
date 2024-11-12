@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-screen-xl mx-auto grid grid-cols-3">
         <div className="flex flex-col gap-4 ml-2">
           <img className="w-16" src={logoLight} alt="logoLight" />
-          <img className="w-40" src={paymentIcons} alt="paymentIcons" />
+          <img className="w-32" src={paymentIcons} alt="paymentIcons" />
         </div>
         <div className="flex flex-col gap-4">
           <h2 className="text-xl">get in touch:</h2>
