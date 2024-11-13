@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Cart from "./pages/Cart";
+import Login from "./pages/Login";
 import { productsData } from "./api/Api";
 import Product from "./components/Product";
 
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
         path: "/cart",
         element: <Cart />,
       },
+      {
+        path: "/login",
+        element: <Login />
+      }
     ],
   },
 ]);

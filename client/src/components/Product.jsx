@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { useLocation } from "react-router-dom";
 import { addToCart } from "../redux/worldSlice";
@@ -66,7 +66,7 @@ const Product = () => {
                   })
                 ) & toast.success(`${details.title} is added`)
               }
-              className="bg-black text-white py-3 px-6 active:bg-gray-800"
+              className="bg-black text-white py-3 px-6 hover:bg-[#006937] duration-300 active:bg-black"
             >
               add to cart
             </button>
@@ -83,7 +83,7 @@ const Product = () => {
         pauseOnFocusLoss
         draggable
         pauseOnHover
-        theme="light"
+        theme="dark"
         transition:Bounce
       />
     </div>

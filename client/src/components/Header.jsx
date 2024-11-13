@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import { cartDark, logoDark } from "../assets/index";
 import { useSelector } from "react-redux";
-import { ToastContainer } from "react-toastify";
 
 const Header = () => {
   const productData = useSelector((state) => state.world.productData);
+  const userInfo = useSelector((state) => state.world.userInfo);
 
   return (
     <div className="w-full h-20 bg-white border-b-[1px] border-b-gray-800 font-bodyFont sticky top-0 z-50">
@@ -19,33 +19,35 @@ const Header = () => {
                 className="text-base text-black font-bold hover:text-[#006937]
             hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300"
               >
-                Home
+                home
               </li>
             </Link>
             <li
               className="text-base text-black font-bold hover:text-[#006937]
             hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300"
             >
-              Pages
+              pages
             </li>
             <li
               className="text-base text-black font-bold hover:text-[#006937]
             hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300"
             >
-              Shop
+              shop
             </li>
             <li
               className="text-base text-black font-bold hover:text-[#006937]
             hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300"
             >
-              Element
+              element
             </li>
-            <li
-              className="text-base text-black font-bold hover:text-[#006937]
+            <Link to="/login">
+              <li
+                className="text-base text-black font-bold hover:text-[#006937]
             hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300"
-            >
-              Blog
-            </li>
+              >
+                {userInfo ? <p>account</p> : <p>login</p>}
+              </li>
+            </Link>
           </ul>
           <Link to="/cart">
             <div className="flex">

@@ -9,6 +9,12 @@ export const worldSlice = createSlice({
   name: "world",
   initialState,
   reducers: {
+    addUser: (state, action) => {
+      state.userInfo = action.payload;
+    },
+    removeUser: (state) => {
+      state.userInfo = null;
+    },
     addToCart: (state, action) => {
       const item = state.productData.find(
         (item) => item.id === action.payload.id
@@ -40,11 +46,19 @@ export const worldSlice = createSlice({
         (item) => item.id === action.payload.id
       );
       if (item) {
-        item.quantity--;
+        item.quantity === 1 ? item.quantity : item.quantity--;
       }
     },
   },
 });
 
-export const { addToCart, deleteItem, resetCart, addQuantity, subtractQuantity } = worldSlice.actions;
+export const {
+  addUser,
+  removeUser,
+  addToCart,
+  deleteItem,
+  resetCart,
+  addQuantity,
+  subtractQuantity,
+} = worldSlice.actions;
 export default worldSlice.reducer;
