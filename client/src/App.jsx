@@ -1,8 +1,4 @@
-import {
-  createBrowserRouter,
-  Outlet,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -10,6 +6,7 @@ import Cart from "./pages/Cart";
 import Login from "./pages/Login";
 import { productsData } from "./api/Api";
 import Product from "./components/Product";
+import ProductCards from "./components/ItemCards";
 
 const Layout = () => {
   return (
@@ -32,6 +29,10 @@ const router = createBrowserRouter([
         loader: productsData,
       },
       {
+        path: "/category/:id",
+        element: <ProductCards />,
+      },
+      {
         path: "/product/:id",
         element: <Product />,
       },
@@ -41,8 +42,8 @@ const router = createBrowserRouter([
       },
       {
         path: "/login",
-        element: <Login />
-      }
+        element: <Login />,
+      },
     ],
   },
 ]);

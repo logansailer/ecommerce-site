@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-const ProductCards = ({ item }) => {
+const Item = ({ item }) => {
   const navigate = useNavigate();
   const id = item.title;
   const idString = (id) => {
@@ -18,21 +18,23 @@ const ProductCards = ({ item }) => {
 
   return (
     <div onClick={handleClick} className="group">
-      <div className="w-full h-96 cursor-pointer overflow-hidden">
+      <div className="cursor-pointer overflow-hidden">
         <img
-          className="w-full h-full object-cover group-hover:scale-110 duration-300"
+          className="w-full aspect-square object-cover group-hover:scale-110 duration-300"
           src={item.image}
           alt="productImage"
         />
       </div>
-      <div className="font-bodyFont w-full px-10 py-4">
-        <h2 className="font-bold text-center">{item.title}</h2>
-        <div className="relative w-full text-center">
-          <p>{item.price}</p>
-        </div>
+      <div className="font-bodyFont mt-3 py-2 relative text-center">
+        <button
+          className="text-white bg-[#006937] py-1 px-3 rounded-2xl transition ease 
+        opacity-100 md:opacity-0 group-hover:opacity-100 duration-400 text-sm"
+        >
+          {item.price.toFixed(2)}
+        </button>
       </div>
     </div>
   );
 };
 
-export default ProductCards;
+export default Item;

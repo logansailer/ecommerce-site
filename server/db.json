@@ -1,0 +1,146 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "hoodies",
+      "price": 151.0,
+      "description": "Premium Double Layered hoodie, extra padded and reversible. This is the thickest piece from our curated selection, made out of the highest quality cotton sustainably developed for a buttery hand feel. Manufactured in Spain",
+      "image": "https://velourgarments.eu/cdn/shop/files/1000BLACK1.png?v=1697226017&width=823",
+      "category": [
+        {
+          "id": 1,
+          "title": "1000 GSM 'Jet Black' Double Hoodie",
+          "price": 151.0,
+          "description": "Premium Double Layered hoodie, extra padded and reversible. This is the thickest piece from our curated selection, made out of the highest quality cotton sustainably developed for a buttery hand feel. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/1000BLACK1.png?v=1697226017&width=823"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "zip-ups",
+      "price": 75.0,
+      "description": "Premium cut and sew hoodie with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
+      "image": "https://velourgarments.eu/cdn/shop/files/ZIP6009_1.png?v=1684404017&width=1100",
+      "category": [
+        {
+          "id": 1,
+          "title": "600 GSM 'Jet Black' Zipper",
+          "price": 75.0,
+          "description": "Premium cut and sew hoodie with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/ZIP6009_1.png?v=1684404017&width=1100"
+        },
+        {
+          "id": 2,
+          "title": "600 GSM 'Jet Black' Zipper",
+          "price": 75.0,
+          "description": "Premium cut and sew hoodie with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/ZIP6009_1.png?v=1684404017&width=1100"
+        },
+        {
+          "id": 3,
+          "title": "600 GSM 'Jet Black' Zipper",
+          "price": 75.0,
+          "description": "Premium cut and sew hoodie with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/ZIP6009_1.png?v=1684404017&width=1100"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "crewnecks",
+      "price": 60.0,
+      "description": "Premium cut and sew crewneck sweater with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
+      "image": "https://velourgarments.eu/cdn/shop/files/C6008_1.png?v=1684404535&width=1100",
+      "category": [
+        {
+          "id": 1,
+          "title": "600 GSM 'Jet Black' Crewneck",
+          "price": 60.0,
+          "description": "Premium cut and sew crewneck sweater with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/C6008_1.png?v=1684404535&width=1100"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "cuffed",
+      "price": 60.0,
+      "description": "Premium cut and sew sweatpants with a classic fit amplified with a high end finish, inner cords and improved stitching amplified with a high end finish. Highest quality fabric made out of densely knitted brushed french terry for a buttery hand feel. Manufactured in Spain",
+      "image": "https://velourgarments.eu/cdn/shop/files/SWEATS6007_1.png?v=1684404248&width=1100",
+      "category": [
+        {
+          "id": 1,
+          "title": "600 GSM 'Jet Black' Sweatpants",
+          "price": 60.0,
+          "description": "Premium cut and sew sweatpants with a classic fit amplified with a high end finish, inner cords and improved stitching amplified with a high end finish. Highest quality fabric made out of densely knitted brushed french terry for a buttery hand feel. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/SWEATS6007_1.png?v=1684404248&width=1100"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "straight leg",
+      "price": 60.0,
+      "description": "Premium cut and sew sweatpants with a loose straight leg fit. Highest quality fabric made out of densely knitted brushed fleece for a buttery hand feel. Manufactured in Spain.",
+      "image": "https://velourgarments.eu/cdn/shop/files/600STRAIGHT3_1.png?v=1684404357&width=1100",
+      "category": [
+        {
+          "id": 1,
+          "title": "600 GSM 'Jet Black' Straight-leg",
+          "price": 60.0,
+          "description": "Premium cut and sew sweatpants with a loose straight leg fit. Highest quality fabric made out of densely knitted brushed fleece for a buttery hand feel. Manufactured in Spain.",
+          "image": "https://velourgarments.eu/cdn/shop/files/600STRAIGHT3_1.png?v=1684404357&width=1100"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "longsleeves",
+      "price": 40.0,
+      "description": "Highest quality cut and sew longsleeve T-Shirt with own developed pattern featuring dropped shoulders with wide chest and cropped length to achieve a fashion forward look t-shirt with an oversized fit that doesn’t feel baggy but boxy. Premium double stitched cuffs on the sleeves. Our most premium fabric offering, milled with finely knitted heavyweight combed organic cotton. Manufactured in Spain",
+      "image": "https://velourgarments.eu/cdn/shop/files/Longsleevesjetblack1.png?v=1684401674&width=1100",
+      "category": [
+        {
+          "id": 1,
+          "title": "300 GSM 'Jet Black' Longsleeve",
+          "price": 40.0,
+          "description": "Highest quality cut and sew longsleeve T-Shirt with own developed pattern featuring dropped shoulders with wide chest and cropped length to achieve a fashion forward look t-shirt with an oversized fit that doesn’t feel baggy but boxy. Premium double stitched cuffs on the sleeves. Our most premium fabric offering, milled with finely knitted heavyweight combed organic cotton. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/Longsleevesjetblack1.png?v=1684401674&width=1100"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "t-Shirts",
+      "price": 30.0,
+      "description": "Highest quality cut and sew t-shirt with our own pattern featuring dropped shoulders with wide chest and cropped length to achieve a fashion forward look t-shirt with an oversized fit that doesn’t feel baggy but boxy. Our most premium fabric offering, milled with finely knitted heavyweight combed organic cotton. Manufactured in Spain",
+      "image": "https://velourgarments.eu/cdn/shop/files/R23-300-V001.png?v=1684401772&width=1100",
+      "category": [
+        {
+          "id": 1,
+          "title": "300 GSM 'Jet Black' T-Shirt",
+          "price": 30.0,
+          "description": "Highest quality cut and sew t-shirt with our own pattern featuring dropped shoulders with wide chest and cropped length to achieve a fashion forward look t-shirt with an oversized fit that doesn’t feel baggy but boxy. Our most premium fabric offering, milled with finely knitted heavyweight combed organic cotton. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/R23-300-V001.png?v=1684401772&width=1100"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "socks",
+      "price": 15.0,
+      "description": "Crafted from the finest, heavyweight organic cotton fabric, our new boucle knit socks envelop your feet in a plush embrace, perfect for those who demand both style and comfort.",
+      "image": "https://velourgarments.eu/cdn/shop/files/BLACK1_92857c67-2f87-42ec-baf6-424b730dd131.png?v=1718354525&width=1100",
+      "category": [
+        {
+          "id": 1,
+          "title": "Boucle 'Jet Black' Socks",
+          "price": 15.0,
+          "description": "Crafted from the finest, heavyweight organic cotton fabric, our new boucle knit socks envelop your feet in a plush embrace, perfect for those who demand both style and comfort.",
+          "image": "https://velourgarments.eu/cdn/shop/files/BLACK1_92857c67-2f87-42ec-baf6-424b730dd131.png?v=1718354525&width=1100"
+        }
+      ]
+    }
+  ]
+}

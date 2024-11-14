@@ -13,7 +13,7 @@ const CartItem = () => {
   const productData = useSelector((state) => state.world.productData);
 
   return (
-    <div className="w-2/3 pr-10 ml-2">
+    <div className="w-full pr-10 ml-2">
       <div className="w-full">
         <h2 className="font-titleFont text-2xl">shopping cart</h2>
       </div>
@@ -21,9 +21,9 @@ const CartItem = () => {
         {productData.map((item) => (
           <div
             key={item.id}
-            className="flex items-center justify-between gap-6 mt-6"
+            className=" p-3 gap-6 mt-6 grid grid-cols-2 md:grid-cols-4 "
           >
-            <div className="flex items-center gap-2">
+            <div className="flex justify-center items-center gap-2">
               <i
                 onClick={() =>
                   dispatch(deleteItem(item.id)) &
@@ -37,10 +37,11 @@ const CartItem = () => {
                 alt="productImage"
               />
             </div>
-            <h2 className="w-52">{item.title}</h2>
-            <p className="w-15">{item.price}</p>
-            <div className="flex gap-4">
-              <div className=" w-52 flex items-center justify-between text-gray-500 border p-3">
+            <div className="flex justify-center items-center">
+              <h2>{item.title}</h2>
+            </div>
+            <div className="flex items-center gap-3">
+              <div className="flex items-center justify-between text-gray-500 border p-3 gap-3">
                 <p className="text-sm">Quantity</p>
                 <div className="flex items-center gap-4 text-sm font-semibold">
                   <button
@@ -56,8 +57,8 @@ const CartItem = () => {
                         })
                       )
                     }
-                    className="border h-5 text-lg flex items-center justify-center px-2 
-              hover:bg-gray-700 hover:text-white duration-300 active:bg-black"
+                    className="border h-5 text-lg flex items-center justify-center px-2 hover:bg-gray-700
+                     hover:text-white duration-300 active:bg-black"
                   >
                     -
                   </button>
@@ -82,8 +83,10 @@ const CartItem = () => {
                   </button>
                 </div>
               </div>
+              <div className="flex justify-center items-center">
+                <p>${item.quantity * item.price}</p>
+              </div>
             </div>
-            <p className="w-14">${item.quantity * item.price}</p>
           </div>
         ))}
       </div>
@@ -96,7 +99,7 @@ const CartItem = () => {
         reset cart
       </button>
       <Link to="/">
-        <button className="mt-8 ml-2 flex items-center gap-1 text-gray-400 hover:text-black duration-300">
+        <button className="m-8 ml-2 flex items-center gap-1 text-gray-400 hover:text-black duration-300">
           <span>
             <i className="fa-solid fa-arrow-left"></i>
           </span>

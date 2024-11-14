@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import Banner from "../components/Banner";
 import Products from "../components/Products";
 import { useLoaderData } from "react-router-dom";
 
@@ -12,7 +11,6 @@ const Home = () => {
 
   return (
     <div className="font-titleFont">
-      <Banner />
       <Products products={products}/>
     </div>
   );

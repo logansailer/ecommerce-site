@@ -15,18 +15,18 @@ const Product = () => {
   }, []);
 
   return (
-    <div className="max-w-screen-xl mx-auto my-10 flex gap-10">
-      <div className="w-2/5 relative">
+    <div className="max-w-screen-xl h-[calc(100vh-263px)] items-center mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div className="w-full overflow-hidden">
         <img
-          className="w-full h-[550px] object-cover"
+          className="w-full object-cover"
           src={details.image}
           alt="productImage"
         ></img>
       </div>
-      <div className="w-3/5 ">
+      <div className="w-full p-10">
         <div>
           <h2 className="text-4xl font-semibold">{details.title}</h2>
-          <p className="text-2xl font-medium text-gray-900">{details.price}</p>
+          <p className="text-2xl font-medium text-gray-900">${details.price}</p>
         </div>
         <div>
           <p className="text-base text-gray-500 my-5">{details.description}</p>

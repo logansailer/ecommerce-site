@@ -22,24 +22,6 @@ const Header = () => {
                 home
               </li>
             </Link>
-            <li
-              className="text-base text-black font-bold hover:text-[#006937]
-            hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300"
-            >
-              pages
-            </li>
-            <li
-              className="text-base text-black font-bold hover:text-[#006937]
-            hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300"
-            >
-              shop
-            </li>
-            <li
-              className="text-base text-black font-bold hover:text-[#006937]
-            hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300"
-            >
-              element
-            </li>
             <Link to="/login">
               <li
                 className="text-base text-black font-bold hover:text-[#006937]
@@ -50,9 +32,9 @@ const Header = () => {
             </Link>
           </ul>
           <Link to="/cart">
-            <div className="flex">
+            <div className="flex group-hover:text-[#006937]">
               <span className="w-3">{productData.length}</span>
-              <img className="w-6 mr-2" src={cartDark} alt="shoppingCart" />
+              <img className="w-6 mr-2 " src={cartDark} alt="shoppingCart" />
             </div>
           </Link>
         </div>
