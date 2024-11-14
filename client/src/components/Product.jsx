@@ -14,12 +14,14 @@ const Product = () => {
     setDetails(location.state.item);
   }, []);
 
+  console.log(details)
+
   return (
     <div className="max-w-screen-xl h-[calc(100vh-263px)] items-center mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
       <div className="w-full overflow-hidden">
         <img
           className="w-full object-cover"
-          src={details.image}
+          src={details.image > 1 ? details.image : details.image[1]}
           alt="productImage"
         ></img>
       </div>
