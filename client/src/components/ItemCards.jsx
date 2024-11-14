@@ -12,7 +12,7 @@ const ItemCards = () => {
 
   return (
     <div
-      className="mx-2 max-w-screen-xl h-[calc(100vh-263px)] text-sm py-3 grid grid-cols-2 md:grid-cols-3 
+      className="mx-auto max-w-screen-xl text-sm py-3 grid grid-cols-2 md:grid-cols-3 
         lg:grid-cols-4 gap-16 gap-y-12"
     >
       {items.map((item) => (

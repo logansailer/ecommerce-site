@@ -26,6 +26,7 @@ const Item = ({ item }) => {
         />
       </div>
       <div className="font-bodyFont mt-3 py-2 relative text-center">
+        <p>{item.title}</p>
         <button
           className="text-white bg-[#006937] py-1 px-3 rounded-2xl transition ease 
         opacity-100 md:opacity-0 group-hover:opacity-100 duration-400 text-sm"

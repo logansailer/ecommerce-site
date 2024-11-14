@@ -13,6 +13,62 @@
           "price": 151.0,
           "description": "Premium Double Layered hoodie, extra padded and reversible. This is the thickest piece from our curated selection, made out of the highest quality cotton sustainably developed for a buttery hand feel. Manufactured in Spain",
           "image": "https://velourgarments.eu/cdn/shop/files/1000BLACK1.png?v=1697226017&width=823"
+        },
+        {
+          "id": 2,
+          "title": "1000 GSM 'Iron Gray' Double Hoodie",
+          "price": 151.0,
+          "description": "Premium Double Layered hoodie, extra padded and reversible. This is the thickest piece from our curated selection, made out of the highest quality cotton sustainably developed for a buttery hand feel. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/10004_1.png?v=1684397884&width=823"
+        },
+        {
+          "id": 3,
+          "title": "1000 GSM 'Ecru' Double Hoodie",
+          "price": 151.0,
+          "description": "Premium Double Layered hoodie, extra padded and reversible. This is the thickest piece from our curated selection, made out of the highest quality cotton sustainably developed for a buttery hand feel. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/ECRU1_f891fc2d-179f-4fa5-a94e-f85d4c464d2c.png?v=1698397298&width=823"
+        },
+        {
+          "id": 4,
+          "title": "1000 GSM 'Dark Chocolate' Double Hoodie",
+          "price": 151.0,
+          "description": "Premium Double Layered hoodie, extra padded and reversible. This is the thickest piece from our curated selection, made out of the highest quality cotton sustainably developed for a buttery hand feel. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/10006_1.png?v=1684397772&width=823"
+        },
+        {
+          "id": 5,
+          "title": "1000 GSM 'British Racing Green' Double Hoodie",
+          "price": 151.0,
+          "description": "Premium Double Layered hoodie, extra padded and reversible. This is the thickest piece from our curated selection, made out of the highest quality cotton sustainably developed for a buttery hand feel. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/1000GSMBRITISHRACINGGREEN_1.png?v=1700757845&width=823"
+        },
+        {
+          "id": 6,
+          "title": "1000 GSM 'Royal Blue' Double Hoodie",
+          "price": 151.0,
+          "description": "Premium Double Layered hoodie, extra padded and reversible. This is the thickest piece from our curated selection, made out of the highest quality cotton sustainably developed for a buttery hand feel. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/1000GSMROYALBLUE_1.png?v=1700758121&width=823"
+        },
+        {
+          "id": 7,
+          "title": "1000 GSM 'Laguna' Double Hoodie",
+          "price": 151.0,
+          "description": "Premium Double Layered hoodie, extra padded and reversible. This is the thickest piece from our curated selection, made out of the highest quality cotton sustainably developed for a buttery hand feel. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/LAGUNAHOODIE10001.png?v=1723808220&width=823"
+        },
+        {
+          "id": 8,
+          "title": "1000 GSM 'Lavender' Double Hoodie",
+          "price": 151.0,
+          "description": "Premium Double Layered hoodie, extra padded and reversible. This is the thickest piece from our curated selection, made out of the highest quality cotton sustainably developed for a buttery hand feel. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/LAVANDERHOODIE1000_1.png?v=1698401095&width=823"
+        },
+        {
+          "id": 9,
+          "title": "1000 GSM 'Dark Red' Double Hoodie",
+          "price": 151.0,
+          "description": "Premium Double Layered hoodie, extra padded and reversible. This is the thickest piece from our curated selection, made out of the highest quality cotton sustainably developed for a buttery hand feel. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/DARKRED10001.png?v=1712311428&width=823"
         }
       ]
     },
@@ -32,17 +88,59 @@
         },
         {
           "id": 2,
-          "title": "600 GSM 'Jet Black' Zipper",
+          "title": "600 GSM 'Iron Gray' Zipper",
           "price": 75.0,
           "description": "Premium cut and sew hoodie with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
-          "image": "https://velourgarments.eu/cdn/shop/files/ZIP6009_1.png?v=1684404017&width=1100"
+          "image": "https://velourgarments.eu/cdn/shop/files/ZIP60019_1.png?v=1694520793&width=1100"
         },
         {
           "id": 3,
-          "title": "600 GSM 'Jet Black' Zipper",
+          "title": "600 GSM 'Ecru' Zipper",
           "price": 75.0,
           "description": "Premium cut and sew hoodie with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
-          "image": "https://velourgarments.eu/cdn/shop/files/ZIP6009_1.png?v=1684404017&width=1100"
+          "image": "https://velourgarments.eu/cdn/shop/files/600ecruzip.png?v=1714750940&width=1100"
+        },
+        {
+          "id": 4,
+          "title": "600 GSM 'Dark Chocolate' Zipper",
+          "price": 75.0,
+          "description": "Premium cut and sew hoodie with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/ZIP6004_1.png?v=1684406237&width=1100"
+        },
+        {
+          "id": 5,
+          "title": "600 GSM 'British Racing Green' Zipper",
+          "price": 75.0,
+          "description": "Premium cut and sew hoodie with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/600britishzip.png?v=1714750937&width=1100"
+        },
+        {
+          "id": 6,
+          "title": "600 GSM 'Royal Blue' Zipper",
+          "price": 75.0,
+          "description": "Premium cut and sew hoodie with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/ZIP6006_1.png?v=1684401090&width=1100"
+        },
+        {
+          "id": 7,
+          "title": "600 GSM 'Navy Blue' Zipper",
+          "price": 75.0,
+          "description": "Premium cut and sew hoodie with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/ZIP6003_1.png?v=1684402384&width=1100"
+        },
+        {
+          "id": 8,
+          "title": "600 GSM 'Lavender' Zipper",
+          "price": 75.0,
+          "description": "Premium cut and sew hoodie with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/600lavzip.png?v=1714750944&width=1100"
+        },
+        {
+          "id": 9,
+          "title": "600 GSM 'Dark Red' Zipper",
+          "price": 75.0,
+          "description": "Premium cut and sew hoodie with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/ZIP60017_1.png?v=1684406060&width=1100"
         }
       ]
     },
@@ -59,6 +157,63 @@
           "price": 60.0,
           "description": "Premium cut and sew crewneck sweater with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
           "image": "https://velourgarments.eu/cdn/shop/files/C6008_1.png?v=1684404535&width=1100"
+        },
+        {
+          "id": 2,
+          "title": "600 GSM 'Iron Gray' Crewneck",
+          "price": 60.0,
+          "description": "Premium cut and sew crewneck sweater with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/C60020_1.png?v=1684405186&width=600"
+        },
+        {
+          "id": 3,
+          "title": "600 GSM 'Ecru' Crewneck",
+          "price": 60.0,
+          "description": "Premium cut and sew crewneck sweater with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/ecru1.png?v=1693207005&width=600"
+        },
+        {
+          "id": 4,
+          "title": "600 GSM 'Dark Chocolate' Crewneck",
+          "price": 60.0,
+          "description": "Premium cut and sew crewneck sweater with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/C6004_1.png?v=1684406468&width=600"
+        },
+
+        {
+          "id": 5,
+          "title": "600 GSM 'British Racing Green' Crewneck",
+          "price": 60.0,
+          "description": "Premium cut and sew crewneck sweater with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/BRITISHRACINGGREENCREWNECK600_1.png?v=1698416618&width=600"
+        },
+        {
+          "id": 6,
+          "title": "600 GSM 'Royal Blue' Crewneck",
+          "price": 60.0,
+          "description": "Premium cut and sew crewneck sweater with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/C6007_1.png?v=1684401282&width=600"
+        },
+        {
+          "id": 7,
+          "title": "600 GSM 'Navy Blue' Crewneck",
+          "price": 60.0,
+          "description": "Premium cut and sew crewneck sweater with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/C6003_1.png?v=1684402847&width=600"
+        },
+        {
+          "id": 8,
+          "title": "600 GSM 'Deep Purple' Crewneck",
+          "price": 60.0,
+          "description": "Premium cut and sew crewneck sweater with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/C6009_1.png?v=1684405993&width=600"
+        },
+        {
+          "id": 9,
+          "title": "600 GSM 'Dark Red' Crewneck",
+          "price": 60.0,
+          "description": "Premium cut and sew crewneck sweater with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
+          "image": "https://velourgarments.eu/cdn/shop/files/C60016_1.png?v=1684406172&width=600"
         }
       ]
     },
