@@ -17,7 +17,7 @@ const Cart = () => {
   }, [productData]);
 
   return (
-    <div className="max-w-screen-xl min-h-[calc(100vh-263px)] py-20 grid grid-cols-1 md:grid-cols-2">
+    <div className="mx-auto max-w-screen-xl min-h-[calc(100vh-263px)] py-20 grid grid-cols-1 md:grid-cols-2">
       <CartItem />
       <div className="bg-[#fafafa] py-6 px-4">
         <div className="flex flex-col gap-6 border-b-[1px] border-b-gray-400 pb-6">
