@@ -59,7 +59,7 @@ const Banner = () => {
 
   return (
     <div>
-      <div className="">
+      <div className="w-full mx-auto max-w-screen-xl">
         <button className="text-4xl">Featured</button>
       </div>
       <div className="w-full mx-auto max-w-screen-xl grid grid-cols-1 md:grid-cols-2">
