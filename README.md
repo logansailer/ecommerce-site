@@ -7,8 +7,8 @@ This project is a responsive, full-stack e-commerce web application built with R
 * Authentication: Firebase for secure user authentication.
 * Payments: Stripe integration for secure transactions.
 
-see a (desktop demo)[https://youtu.be/dST1HoZLx7o] 👈
-see a (mobile demo)[https://youtube.com/shorts/jdNFcERBR0o?feature=share] 👈
+see a [desktop demo](https://youtu.be/dST1HoZLx7o) 👈
+see a [mobile demo](https://youtube.com/shorts/jdNFcERBR0o?feature=share) 👈
 
 
 ![Screenshot 2024-11-14 234928](https://github.com/user-attachments/assets/f406d80b-3e48-4f4f-9e13-672c3f3c3092)
