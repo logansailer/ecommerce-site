@@ -77,16 +77,15 @@ const Login = () => {
         <SignInDisplay />
       </div>
       <ToastContainer
-        position="top-left"
-        autoClose={1000}
-        hideProgressBar={false}
+        position="top-center"
+        autoClose={3000}
+        hideProgressBar={true}
         newestOnTop={false}
         closeOnClick
         rtl={false}
         pauseOnFocusLoss
         draggable
-        pauseOnHover
-        theme="dark"
+        theme="light"
         transition:Bounce
       />
     </div>

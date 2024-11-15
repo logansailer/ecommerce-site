@@ -12,16 +12,14 @@ const Product = () => {
   const location = useLocation();
   useEffect(() => {
     setDetails(location.state.item);
-  }, []);
-
-  console.log(details)
+  }, [location]);
 
   return (
     <div className="max-w-screen-xl h-[calc(100vh-263px)] items-center mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
       <div className="w-full overflow-hidden">
         <img
           className="w-full object-cover"
-          src={details.image > 1 ? details.image : details.image[1]}
+          src={details.image}
           alt="productImage"
         ></img>
       </div>
@@ -76,16 +74,15 @@ const Product = () => {
         </div>
       </div>
       <ToastContainer
-        position="top-left"
+        position="top-center"
         autoClose={3000}
-        hideProgressBar={false}
+        hideProgressBar={true}
         newestOnTop={false}
         closeOnClick
         rtl={false}
         pauseOnFocusLoss
         draggable
-        pauseOnHover
-        theme="dark"
+        theme="light"
         transition:Bounce
       />
     </div>

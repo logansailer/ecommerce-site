@@ -1,18 +1,28 @@
-const jsonServer = require("json-server");
+const express = require("express");
 const cors = require("cors");
-const path = require("path");
+const fs = require("fs");
+const bodyParser = require("body-parser");
+const router = express.Router();
+const stripe = require("./Routes/Stripe");
+require("dotenv").config();
+const app = express();
+const PORT = process.env.PORT;
 
-const server = jsonServer.create();
-const router = jsonServer.router(path.join(__dirname, "db.json"));
-const middlewares = jsonServer.defaults();
+app.use(cors());
+app.use(bodyParser.json());
+app.use("/api", router);
+app.use("/api/stripe", stripe);
 
-server.use(cors());
-server.use(jsonServer.bodyParser);
-server.use(middlewares);
-server.use(router);
+app.get("/", (req, res) => {
+  res.send("Welcome to .world's server");
+});
 
-const PORT = 8000;
+// Read the JSON file
+const db = JSON.parse(fs.readFileSync("db.json"));
+app.get("/api/products", (req, res) => {
+  res.json(db);
+});
 
-server.listen(PORT, () => {
+app.listen(PORT, () => {
   console.log(`JSON Server is running on http://localhost:${PORT}`);
 });

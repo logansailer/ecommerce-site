@@ -5,7 +5,6 @@ import {
   deleteItem,
   resetCart,
 } from "../redux/worldSlice";
-import { toast, ToastContainer } from "react-toastify";
 import { Link } from "react-router-dom";
 
 const CartItem = () => {
@@ -25,10 +24,7 @@ const CartItem = () => {
           >
             <div className="flex justify-center items-center gap-2">
               <i
-                onClick={() =>
-                  dispatch(deleteItem(item.id)) &
-                  toast.error(`${item.title} is removed`)
-                }
+                onClick={() => dispatch(deleteItem(item.id))}
                 className="fa-solid fa-x text-gray-600 hover:text-red-600 cursor-pointer duration-300"
               ></i>
               <img
@@ -91,9 +87,7 @@ const CartItem = () => {
         ))}
       </div>
       <button
-        onClick={() =>
-          dispatch(resetCart()) & toast.error("your cart has been emptied")
-        }
+        onClick={() => dispatch(resetCart())}
         className="bg-red-600 text-white mt-8 ml-2 py-1 px-6 hover:bg-red-700 duration-300"
       >
         reset cart
@@ -106,19 +100,6 @@ const CartItem = () => {
           back to store
         </button>
       </Link>
-      <ToastContainer
-        position="top-left"
-        autoClose={3000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-        theme="dark"
-        transition:Bounce
-      />
     </div>
   );
 };

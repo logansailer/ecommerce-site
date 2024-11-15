@@ -26,9 +26,7 @@ const CategoryCards = ({ item }) => {
         />
       </div>
       <div className="font-bodyFont mt-3 py-2 relative text-center">
-        <button
-          className="font-titleFont text-white bg-[#006937] py-1 px-3 rounded-2xl text-lg"
-        >
+        <button className="font-titleFont text-white bg-[#006937] py-1 px-3 rounded-2xl text-lg">
           {item.title}
         </button>
       </div>

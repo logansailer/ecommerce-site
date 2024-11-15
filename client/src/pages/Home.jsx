@@ -10,8 +10,8 @@ const Home = () => {
   }, [productData]);
 
   return (
-    <div className="font-titleFont">
-      <Products products={products}/>
+    <div className="font-titleFont min-h-[calc(100vh-263px)]">
+      <Products products={products} />
     </div>
   );
 };

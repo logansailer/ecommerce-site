@@ -1,19 +1,16 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { magazineOpen, magazineClosed } from "../assets/index";
 
 const Banner = () => {
   const featuredProducts = [
     {
       id: 1,
-      title: "STREET STYLE JOURNAL",
+      title: "Street Style Magazine",
       price: 15.0,
       description:
         'This photobook explores the near future, where high fashion absorbs contrasting elements like "elderly fashion" and anti-fashion. Using plastic and fashion as symbols of human desire, it suggests that as reason suppresses desire, "elderly fashion" (reason) will eventually replace "high fashion" (desire).',
-      image: {
-        1: magazineClosed,
-        2: magazineOpen,
-      },
+      image:
+        "https://b-eautiful.com/cdn/shop/files/1.jpg?v=1723091713&width=720%20720w,",
     },
     {
       id: 2,
@@ -37,13 +34,25 @@ const Banner = () => {
     });
   };
 
-  const [imageCounter, setImageCounter] = useState(1);
+  const [imageCounter, setImageCounter] = useState(
+    "https://b-eautiful.com/cdn/shop/files/1.jpg?v=1723091713&width=720%20720w,"
+  );
   const changeImage = () => {
-    if (imageCounter === 1) {
-      setImageCounter(2);
+    if (
+      imageCounter ===
+      "https://b-eautiful.com/cdn/shop/files/1.jpg?v=1723091713&width=720%20720w,"
+    ) {
+      setImageCounter(
+        "https://b-eautiful.com/cdn/shop/files/2.jpg?v=1723091713&width=720%20720w,"
+      );
     }
-    if (imageCounter === 2) {
-      setImageCounter(1);
+    if (
+      imageCounter ===
+      "https://b-eautiful.com/cdn/shop/files/2.jpg?v=1723091713&width=720%20720w,"
+    ) {
+      setImageCounter(
+        "https://b-eautiful.com/cdn/shop/files/1.jpg?v=1723091713&width=720%20720w,"
+      );
     }
   };
   setTimeout(changeImage, 1500);
@@ -57,7 +66,7 @@ const Banner = () => {
         <img
           onClick={() => handleClick(featuredProducts[0])}
           className="-mb-18"
-          src={featuredProducts[0].image[imageCounter]}
+          src={imageCounter}
           alt="featuredProduct"
         ></img>
 

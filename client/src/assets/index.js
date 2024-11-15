@@ -5,8 +5,6 @@ import googleLight from "./googleLight.png";
 import logoDark from "./logoDark.png";
 import logoLight from "./logoLight.png";
 import paymentIcons from "./paymentIcons.png";
-import magazineOpen from "./magazineOpen.png";
-import magazineClosed from "./magazineClosed.png";
 
 export {
   cartDark,
@@ -16,6 +14,4 @@ export {
   logoDark,
   logoLight,
   paymentIcons,
-  magazineOpen,
-  magazineClosed,
 };
