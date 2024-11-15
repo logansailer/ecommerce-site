@@ -1,4 +1,4 @@
-import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, Outlet, RouterProvider, ScrollRestoration } from "react-router-dom";
 import Home from "./pages/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -10,12 +10,14 @@ import ItemCards from "./components/ItemCards";
 import CheckOutSuccess from "./pages/CheckOutSuccess";
 import CheckOutCancel from "./pages/CheckOutCancel";
 
+
 const Layout = () => {
   return (
     <div>
       <Header />
       <Outlet />
       <Footer />
+      <ScrollRestoration />
     </div>
   );
 };
