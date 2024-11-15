@@ -4,7 +4,7 @@ This project is a responsive, full-stack e-commerce web application built with R
 ## Key Features:
 * Frontend: React for a responsive and dynamic user interface, integrated with Toastify for notifications.
 * Backend: Node.js and Express for API handling and server-side logic.
-* Authentication: Firebase for secure user authentication.
+* Authentication: Firebase for convenient user authentication.
 * Payments: Stripe integration for secure transactions.
 
 see a [desktop demo](https://youtu.be/dST1HoZLx7o) 👈
