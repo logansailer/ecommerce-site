@@ -6,7 +6,7 @@ import Cart from "./pages/Cart";
 import Login from "./pages/Login";
 import { productsData } from "./api/Api";
 import Product from "./components/Product";
-import ProductCards from "./components/ItemCards";
+import ItemCards from "./components/ItemCards";
 import CheckOutSuccess from "./pages/CheckOutSuccess";
 import CheckOutCancel from "./pages/CheckOutCancel";
 
@@ -32,7 +32,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/category/:id",
-        element: <ProductCards />,
+        element: <ItemCards />,
       },
       {
         path: "/product/:id",
