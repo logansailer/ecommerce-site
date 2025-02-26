@@ -8,8 +8,8 @@ This project is a responsive, full-stack e-commerce web application built with R
 * Payments: Stripe integration for secure transactions.
 
 see a [desktop demo](https://youtu.be/dST1HoZLx7o) 👈
-see a [mobile demo](https://youtube.com/shorts/jdNFcERBR0o?feature=share) 👈 
-/site can be accessed [here](https://world-s398.onrender.com/), however, it may take some time to load and some features such as checkout and page refreshes may not work due to the nature of the free hosting service
+see a [mobile demo](https://youtube.com/shorts/jdNFcERBR0o?feature=share) 👈 \
+site can be accessed [here](https://world-s398.onrender.com/), however, it may take some time to load and some features such as checkout and page refreshes may not work due to the nature of the free hosting service
 
 
 ![Screenshot 2024-11-14 234928](https://github.com/user-attachments/assets/f406d80b-3e48-4f4f-9e13-672c3f3c3092)
